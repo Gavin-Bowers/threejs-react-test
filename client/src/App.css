@@ -1,0 +1,85 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+html, body{min-height:100%;}
+body{height:100vh;}
+
+body {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 35px;
+  height: 35px;
+  background-color: #000000;
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(235, 235, 235);
+  color: #000000;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 5px 10px 5px 10px;
+}
+
+.art-viewer {
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.art-viewer-controls {
+  display: flex;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 65px;
+  margin-bottom: 25px;
+}
+.art-title {
+  width: 300px;
+  text-align: center;
+}
+
+#tesseract-controls {
+  display: flex;
+  justify-content: space-between;
+}
